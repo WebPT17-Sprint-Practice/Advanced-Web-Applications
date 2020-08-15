@@ -1,18 +1,14 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 const AddAnimal = (props) => {
-    const [animal, setAnimal] = useState()
-    const handleChanges = () => {
+  const [animal, setAnimal] = useState();
+  const handleChanges = () => {};
 
-    }
+  const handleSubmit = () => {};
 
-    const handleSubmit = () => {
-
-    }
-
-    return(
-        <div>
-        <form onSubmit={}>
+  return (
+    <div>
+      {/* <form onSubmit={}>
             <label htmlFor="name">Name</label>
             <input onChange={}
                     type="text"
@@ -37,9 +33,8 @@ const AddAnimal = (props) => {
                     required>
             </input>
             <button>Submit</button>
-        </form>
-        </div>
-    )
-
-}
-export default AddAnimal
+        </form> */}
+    </div>
+  );
+};
+export default AddAnimal;
